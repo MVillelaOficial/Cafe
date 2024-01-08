@@ -1,0 +1,1 @@
+document.getElementById("buttonMenu").addEventListener("click", () => {location.replace("file:///C:/Users/ricar/OneDrive/Desktop/MVillela/Cardapio/indexMenu.html")});

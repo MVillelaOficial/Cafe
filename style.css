@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("flower-909427_1920.jpg ");
+    width: 100vw;
+    overflow-x: hidden;
+}
+.banner-home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #653A2A;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 60px 0;
+    animation: anim-banner 1s ease-in-out;
+    box-shadow: 0px 9px 13px black;
+}
+@keyframes anim-banner {
+    from {
+        transform: translateY(-100px);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+.img-logo {
+    padding: 0;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 300px;
+}
+.contacts-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+}
+.contact {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.insta {
+    font-size: 30px;
+    transition: 0.7s;
+    transform: rotateY(0deg);
+    color: black;
+}
+.contact:hover .insta {
+    transition: 0.7s;
+    transform: rotateY(180deg);
+    color: rgb(255, 0, 170);
+}
+.face {
+    font-size: 30px;
+    transition: 0.7s;
+    transform: rotateY(0deg);
+    color: black;
+}
+.contact:hover .face {
+    transition: 0.7s;
+    transform: rotateY(180deg);
+    color: rgb(0, 100, 214);
+}
+.whats {
+    font-size: 30px;
+    transition: 0.7s;
+    transform: rotateY(0deg);
+    color: black;
+}
+.contact:hover .whats {
+    transition: 0.7s;
+    transform: rotateY(180deg);
+    color: rgb(0, 253, 76);
+}
+.maps {
+    font-size: 30px;
+    transition: 0.7s;
+    transform: rotateY(0deg);
+    color: black;
+}
+.contact:hover .maps {
+    transition: 0.7s;
+    transform: rotateY(180deg);
+    color: rgb(255, 187, 0);
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: fit-content;
+}
+.button-menu-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.button-menu {
+    border: 2px solid;
+    border-radius: 20px;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(235, 235, 235);
+    transition: 0.7s;
+}
+.button-menu:hover {
+    background-color: rgb(0, 144, 201);
+    transition: 0.7s;
+}
+hr {
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-content {
+    width: fit-content;
+}
+.about-title {
+    font-size: 30px;
+}
+.about-text {
+    font-size: 17px;
+}
+.services {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-content {
+    width: fit-content;
+    text-align: center;
+}
+.services-title {
+    font-size: 30px
+}
+ul {
+    text-align: left;
+    list-style-type: none;
+}
+li {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.pool {
+    color: rgb(0, 66, 121);
+}
+.kids {
+    color: blueviolet;
+}
+.horse {
+    color: #653A2A;
+}
+.basket {
+    color: rgb(136, 66, 0);
+}
+.plant {
+    color: green;
+}
+@media (max-width: 550px) {
+    .about {
+        width: 250px;
+    }
+    .services {
+        width: 250px;
+    }
+}
