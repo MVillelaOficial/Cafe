@@ -4,6 +4,7 @@ html, body {
     font-family: sans-serif;
     overflow-X: hidden;
     width: 100vw;
+    scroll-behavior: smooth;
 }
 header {
     width: 100%;
